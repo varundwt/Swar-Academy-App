@@ -1,12 +1,9 @@
-import Image from "next/image";
-import test from "node:test";
+import HeroSection from "@/components/HeroSection";
 
 export default function Home() {
-  return (
-  <html lang="en">
-    <body>
-      <h1 className="text-2xl text-center mt-8">Hello Varun</h1>
-    </body>
-  </html>
+  return (  
+     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
+      <HeroSection/>
+      </main>  
   );
 }
