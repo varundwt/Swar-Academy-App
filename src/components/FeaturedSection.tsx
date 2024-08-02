@@ -5,8 +5,8 @@ import { BackgroundGradient } from "./ui/background-gradient"
 
 interface Course{
         id: number,
-        title: tring,
-        slug: string,s
+        title: string,
+        slug: string,
         description: string,
         price: number,
         instructor: string,
@@ -16,7 +16,7 @@ interface Course{
 const FeaturedSection = () => {
     const featuredCourses = courseData.courses.filter((course:Course) =>course.isFeatured)
   return (
-    <div className="py-12 bg-gray-900">
+    <div className="py-12 pt-0 bg-black-900">
         <div>
             <div className="text-center">
                 <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">FEATURED COURSES</h2>
@@ -24,7 +24,7 @@ const FeaturedSection = () => {
             </div>
         </div>
         <div className="mt-10">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center mx-10">
                 {featuredCourses.map((course:Course)=>(                    
                     <div key={course.id} className="flex justify-center">
                         <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
