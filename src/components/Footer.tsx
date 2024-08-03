@@ -6,7 +6,7 @@ function Footer() {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
           <p className="mb-4">
-            Music School is a premier institution dedicated to teaching the art
+            Swar Academy is a premier institution dedicated to teaching the art
             and science of music. We nurture talent from the ground up,
             fostering a vibrant community of musicians.
           </p>
@@ -52,34 +52,35 @@ function Footer() {
           <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
           <div className="flex space-x-4">
             <a
-              href="#"
+              href="https://wa.me/919627385102"
               className="hover:text-white transition-colors duration-300"
             >
-              Facebook
+              WhatsApp
             </a>
             <a
-              href="#"
+              href="mailto:varundwt@gmail.com"
               className="hover:text-white transition-colors duration-300"
             >
-              Twitter
+              Email
             </a>
             <a
-              href="#"
+              href="tel:+919627385102"
               className="hover:text-white transition-colors duration-300"
             >
-              Instagram
+              Telephone
             </a>
           </div>
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
+          <p>Swar Academy</p>
           <p>New Delhi, India</p>
           <p>Delhi 10001</p>
-          <p>Email: info@musicschool.com</p>
-          <p>Phone: (123) 456-7890</p>
+          <p>Email: varundwt@gmail.com</p>
+          <p>Phone: (962) 738-5102</p>
         </div>
         </div>
-        <p className="text-center text-xs pt-8">© 2024 Music School. All rights reserved.</p>        
+        <p className="text-center text-xs pt-8">© 2024 Swar Academy. All rights reserved.</p>        
     </footer>
   )
 }
